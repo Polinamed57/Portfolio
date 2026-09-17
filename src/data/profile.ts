@@ -2,12 +2,12 @@ import type { Profile } from "../types";
 
 export const profile: Profile = {
   name: "Polina Kovalenko",
-  role: "Frontend Developer",
+  role: "Junior Full Stack Developer",
   tagline:
-    "I build clean, fast and accessible web interfaces with React and TypeScript.",
+    "I turn ideas into polished web apps, from empty repo to deployed product.",
   about: [
-    "I'm a frontend developer focused on turning ideas into polished, responsive web apps. I care about details: typography, motion, and the small interactions that make a product feel right.",
-    "My main stack is React, TypeScript and modern CSS. I enjoy taking a project from an empty repo to a deployed, working site.",
+    "I'm a full stack developer focused on turning ideas into polished, responsive web apps. My frontend is React, TypeScript, and modern CSS, and I'm expanding into backend with Python and Django to own features end to end.",
+    "I care about the details, typography, motion, accessibility, and the small interactions that make a product feel right. I enjoy taking a project from an empty repo to a deployed, working site.",
   ],
   photoUrl: "/IMG_7049.JPG",
   resumeUrl: "/Polina_Kovalenko_Resume.pdf",
