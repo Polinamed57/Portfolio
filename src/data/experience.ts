@@ -2,6 +2,16 @@ import type { TimelineEntry } from "../types";
 
 export const timeline: TimelineEntry[] = [
   {
+    kind: "work",
+    title: "Freelance Web Developer",
+    org: "Sandra's Bake House",
+    period: "Sep 2026 — Present",
+    details: [
+      "Redesigned a cookie startup's wholesale catalog for email outreach to Edmonton cafés: an 8-page HTML/CSS layout exported to PDF with embedded brand fonts.",
+      "Cut the file size from 13.5 MB to 1.3 MB by fixing image encoding, corrected allergen labelling, and delivered across several rounds of client feedback.",
+    ],
+  },
+  {
     kind: "education",
     title: "Full Stack Development Diploma",
     org: "University of Alberta",

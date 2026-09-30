@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { GraduationCap } from "lucide-react";
+import { Briefcase, GraduationCap } from "lucide-react";
 import { timeline } from "../data/experience";
 import { AnimatedSection } from "../ui/AnimatedSection";
 import { SectionHeading } from "../ui/SectionHeading";
@@ -8,7 +8,7 @@ import { groupVariants, itemVariants } from "../ui/Stagger";
 export function Experience() {
   return (
     <AnimatedSection id="experience">
-      <SectionHeading index="04" title="Education" />
+      <SectionHeading index="04" title="Experience & Education" />
 
       <motion.ol
         variants={groupVariants}
@@ -24,7 +24,11 @@ export function Experience() {
             className="relative"
           >
             <span className="absolute -left-[2.85rem] flex h-7 w-7 items-center justify-center rounded-full border border-gold/30 bg-surface text-gold">
-              <GraduationCap size={14} />
+              {entry.kind === "work" ? (
+                <Briefcase size={14} />
+              ) : (
+                <GraduationCap size={14} />
+              )}
             </span>
 
             <p className="font-mono text-xs text-gold">{entry.period}</p>
