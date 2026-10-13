@@ -9,16 +9,16 @@ export const projects: Project[] = [
     liveUrl: "https://weather-app-knca.vercel.app/",
     repoUrl: "https://github.com/Polinamed57/Weather-App",
     imageUrl: "/projects/project-one.png",
-    year: "2025",
+    year: "2026",
   },
   {
     title: "Expense Tracker",
     description:
-      "A full-stack expense tracker with user accounts that lets you record one-time and recurring expenses, organize them into custom categories, and review spending per month. Visualizes your finances with pie, bar and history charts, plus AI-powered insights, backed by Supabase auth and database.",
-    tech: ["React", "TypeScript", "Supabase", "Claude API", "Recharts"],
+      "A full-stack expense tracker with email sign-up and per-user data protected by Row Level Security. Set monthly budgets per category, track savings goals and export any month to CSV. Type something like \"Starbucks 12.50\" and Claude picks the category through a serverless function. Pie, bar and history charts show where the money goes. Built on Supabase (PostgreSQL and Auth) and deployed on Vercel.",
+    tech: ["React", "TypeScript", "Supabase", "PostgreSQL", "Claude API", "Recharts"],
     liveUrl: "https://expenses-tracker-one-orpin.vercel.app",
     repoUrl: "https://github.com/Polinamed57/Expenses-Tracker",
     imageUrl: "/projects/project-two.png",
-    year: "2025",
+    year: "2026",
   },
 ];

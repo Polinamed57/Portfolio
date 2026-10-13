@@ -1,6 +1,6 @@
 # Portfolio — Polina Kovalenko
 
-Personal portfolio website of Polina Kovalenko, a frontend developer.
+Personal portfolio website of Polina Kovalenko, a junior full stack developer.
 A fast, responsive single-page site featuring an about section, skills,
 selected projects, education and contact details.
 
@@ -45,4 +45,3 @@ src/
   hooks/        Custom hooks (useActiveSection)
   types/        Shared TypeScript types
 ```
-
